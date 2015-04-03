@@ -1,6 +1,10 @@
 separetaro.vim
 =========
 
+# 命名
+
+## ＞> セパレ太郎 <＜
+
 # 概要
 
 　separetaro.vimは規定のファイルタイプに  
