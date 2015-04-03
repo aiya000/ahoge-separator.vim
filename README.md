@@ -1,10 +1,13 @@
-ahoge-separator.vim
+separetaro.vim
 =========
 
 # 概要
 
-　ahoge-separator.vimは規定のファイルタイプに  
+　separetaro.vimは規定のファイルタイプに  
 長いセパレータと短いセパレータを定義します。  
 
 そしてそれらはキーマッピングとコマンドにより  
 テキスト中に挿入をすることが可能です。
+
+ This plugin take standard separator comment for some filetype .  
+It was taked as keymappings and commands .
