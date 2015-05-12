@@ -11,7 +11,7 @@ set cpo&vim
 
 
 " Default short separator
-let g:separetaro_short_separator_of = {
+let g:separetaro_default_short_separator_of = {
 \	'_'        : '- - - - - - - - - -',
 \	'vim'      : '"#--- --- ---#"',
 \	'vimspec'  : '"#--- --- ---#"',
@@ -31,7 +31,7 @@ let g:separetaro_short_separator_of = {
 
 
 " Default long separator
-let g:separetaro_long_separator_of = {
+let g:separetaro_default_long_separator_of = {
 \	'_'        : '- - - - - - - - - - - - - - - - - - - -',
 \	'vim'      : '"#-=- -=- -=- -=- -=- -=- -=- -=- -=-#"',
 \	'vimspec'  : '"#-=- -=- -=- -=- -=- -=- -=- -=- -=-#"',
@@ -48,6 +48,11 @@ let g:separetaro_long_separator_of = {
 \	'sh'       : '#- - - - - - - - - - - - - - - - -#',
 \	'help'     : '================================================================================'
 \}
+
+
+" User's separators
+let g:separetaro_short_separator_of = get(g:, 'separetaro_short_separator_of', {})
+let g:separetaro_long_separator_of  = get(g:, 'separetaro_long_separator_of',  {})
 
 
 "#--- --- ---#"
